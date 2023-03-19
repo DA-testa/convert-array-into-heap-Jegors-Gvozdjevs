@@ -69,7 +69,7 @@ def main():
 
         if "a" not in file:
 
-            with open("test/" + file, 'r')as f:
+            with open("tests/" + file, 'r')as f:
 
                 n = int(f.readline())
 
